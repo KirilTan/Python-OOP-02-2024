@@ -14,7 +14,7 @@ class Employee:
         raise_salary: Increases the employee's salary by a specified amount.
     """
 
-    def __init__(self, id: int or float, first_name: str, last_name: str, salary: int or float):
+    def __init__(self, _id: int or float, first_name: str, last_name: str, salary: int or float):
         """
         Initializes a new Employee instance with the given id, first name, last name, and salary.
 
@@ -24,7 +24,7 @@ class Employee:
             last_name (str): Employee's last name.
             salary (int|float): Monthly salary of the employee.
         """
-        self.id = id
+        self.id = _id
         self.first_name = first_name
         self.last_name = last_name
         self.salary = salary
