@@ -23,13 +23,16 @@ class Cup:
         self.size = size
         self.quantity = quantity
 
-    def fill(self, quantity: int):
+    def fill(self, quantity: int) -> int or None:
         """
         Adds a specified quantity of liquid to the cup. If the new quantity exceeds the cup's size,
         the cup is not filled beyond its capacity.
 
         Parameters:
             quantity (int): The quantity of liquid to add to the cup.
+
+        Returns:
+            int or None: The new quantity of liquid in the cup
 
         """
         new_quantity = self.quantity + quantity
