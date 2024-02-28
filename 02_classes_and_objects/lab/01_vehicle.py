@@ -18,6 +18,7 @@ class Vehicle:
         self.gadgets = []
 
 
+# Example usage
 car = Vehicle(20)
 print(car.max_speed)
 print(car.mileage)
