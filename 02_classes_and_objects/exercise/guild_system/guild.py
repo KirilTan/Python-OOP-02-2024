@@ -1,4 +1,4 @@
-from project.player import Player
+from player import Player
 from typing import List
 
 
@@ -77,3 +77,11 @@ class Guild:
             text += f"\n{current_player_info}"
         return text
 
+
+# Example usage
+player = Player("George", 50, 100)
+print(player.add_skill("Shield Break", 20))
+print(player.player_info())
+guild = Guild("UGT")
+print(guild.assign_player(player))
+print(guild.guild_info())
