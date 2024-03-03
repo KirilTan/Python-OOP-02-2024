@@ -1,6 +1,3 @@
-from project.guild import Guild
-
-
 class Player:
     """
     This class represents a player in the game. It contains their name, health, mana, skills, and guild.
@@ -53,3 +50,4 @@ class Player:
         for skill_name, mana_cost in self.skills.items():
             text += f'==={skill_name} - {mana_cost}\n'
         return text
+
