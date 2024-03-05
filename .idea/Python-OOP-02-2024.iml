@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/01_first_steps_in_oop" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/02_classes_and_objects/exercise" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/02_classes_and_objects" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03_inheritance/lab/01_food" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
