@@ -1,5 +1,5 @@
 from project.hero import Hero
 
 
-class Knight(Hero):
+class Wizard(Hero):
     pass
