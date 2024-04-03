@@ -4,6 +4,12 @@ class Worker:
         print("I'm working!!")
 
 
+class SuperWorker:
+
+    def work(self):
+        print("I work very hard!!!")
+
+
 class Manager:
 
     def __init__(self):
@@ -17,12 +23,6 @@ class Manager:
     def manage(self):
         if self.worker is not None:
             self.worker.work()
-
-class SuperWorker:
-
-    def work(self):
-        print("I work very hard!!!")
-
 
 
 worker = Worker()
