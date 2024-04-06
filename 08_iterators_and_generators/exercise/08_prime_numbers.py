@@ -1,4 +1,4 @@
-from math import sqrt
+from math import isqrt
 
 
 def get_primes(numbers: list[int]):
@@ -6,7 +6,7 @@ def get_primes(numbers: list[int]):
         if number <= 1:
             continue
 
-        for divisor in range(2, int(sqrt(number)) + 1):
+        for divisor in range(2, isqrt(number) + 1):
             if number % divisor == 0:
                 break
 
