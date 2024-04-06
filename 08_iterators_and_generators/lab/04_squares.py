@@ -1,4 +1,4 @@
-def squares(n: int) -> int:
+def squares(n):
     current_num = 1
 
     while current_num <= n:
