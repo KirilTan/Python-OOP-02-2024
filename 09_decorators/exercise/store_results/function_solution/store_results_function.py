@@ -18,5 +18,4 @@ def some_function(a: int or float, b: int or float):
     return "{:.2f}".format(result)
 
 
-some_function(1, 2)
 some_function(1.2345, 5.6789)
