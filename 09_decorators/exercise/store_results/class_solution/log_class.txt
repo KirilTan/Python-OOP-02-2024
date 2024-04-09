@@ -1,0 +1,6 @@
+Function: some_function was called.
+It produced the result: 3.00
+---
+Function: some_function was called.
+It produced the result: 6.91
+---
