@@ -53,6 +53,7 @@ class TestRailwayStation(TestCase):
         result = self.station_with_trains.train_has_arrived(train_info)
 
         self.assertEqual(expected_result, result)
+        self.assertEqual(deque([]), self.station_with_trains.departure_trains)
 
     def test_train_has_arrived_train_to_leave_expect_success(self):
         train_info = 'Train1'
