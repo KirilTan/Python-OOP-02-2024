@@ -1,9 +1,5 @@
-from typing import List
-
-from project.divers.base_diver import BaseDiver
 from project.divers.free_diver import FreeDiver
 from project.divers.scuba_diver import ScubaDiver
-from project.fish.base_fish import BaseFish
 from project.fish.deep_sea_fish import DeepSeaFish
 from project.fish.predatory_fish import PredatoryFish
 
@@ -17,9 +13,10 @@ class NauticalCatchChallengeApp:
         'PredatoryFish': PredatoryFish,
         'DeepSeaFish': DeepSeaFish
     }
+
     def __init__(self):
-        self.divers: List[BaseDiver] = []
-        self.fish_list: List[BaseFish] = []
+        self.divers = []
+        self.fish_list = []
 
     def dive_into_competition(self, diver_type: str, diver_name: str):
         try:
@@ -90,7 +87,25 @@ class NauticalCatchChallengeApp:
         return f"Divers recovered: {len(divers_with_health_issues)}"
 
     def diver_catch_report(self, diver_name: str):
-        pass
+        diver = next(filter(lambda d: d.name == diver_name, self.divers))
+
+        text = f"**{diver_name} Catch Report**"
+
+        for fish in diver.catch:
+            text += f"\n{fish.fish_details()}"
+
+        return text
 
     def competition_statistics(self):
-        pass
+        healthy_divers = list(filter(lambda d: not d.has_health_issue, self.divers))
+
+        sorted_divers = sorted(
+            healthy_divers, key=lambda d: (-d.competition_points, -len(d.catch), d.name)
+        )
+
+        text = f"**Nautical Catch Challenge Statistics**"
+
+        for diver in sorted_divers:
+            text += f"\n{str(diver)}"
+
+        return text

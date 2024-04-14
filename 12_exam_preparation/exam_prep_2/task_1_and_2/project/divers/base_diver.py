@@ -8,7 +8,7 @@ class BaseDiver(ABC):
     def __init__(self, name: str, oxygen_level: float):
         self.name = name
         self.oxygen_level = oxygen_level
-        self.catch: List[BaseFish] = []
+        self.catch = []
         self.__competition_points: float = 0.0
         self.has_health_issue: bool = False
 
