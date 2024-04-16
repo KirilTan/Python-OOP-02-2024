@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
-from typing import List, Type
+from typing import Type
 
-from project.food import Food, Meat, Vegetable, Fruit, Seed
+from ex_1_and_2.project import Food, Meat, Vegetable, Fruit, Seed
 
 
 class Animal(ABC):

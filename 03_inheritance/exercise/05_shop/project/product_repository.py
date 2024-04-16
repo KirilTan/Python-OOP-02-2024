@@ -1,7 +1,7 @@
 from typing import List
 
-from project.drink import Drink
-from project.food import Food
+from ex_1_and_2.project import Drink
+from ex_1_and_2.project import Food
 
 
 class ProductRepository:

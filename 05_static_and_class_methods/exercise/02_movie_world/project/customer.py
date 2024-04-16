@@ -1,4 +1,4 @@
-from project.dvd import DVD
+from ex_1_and_2.project import DVD
 
 from typing import List
 

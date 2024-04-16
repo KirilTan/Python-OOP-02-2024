@@ -1,8 +1,8 @@
 from typing import List
 
-from project.category import Category
-from project.document import Document
-from project.topic import Topic
+from ex_1_and_2.project import Category
+from ex_1_and_2.project import Document
+from ex_1_and_2.project import Topic
 
 
 class Storage:

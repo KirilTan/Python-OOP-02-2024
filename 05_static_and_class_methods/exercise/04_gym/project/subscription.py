@@ -1,4 +1,4 @@
-from project.next_id_mixin import NextIdMixin
+from ex_1_and_2.project import NextIdMixin
 
 
 class Subscription(NextIdMixin):

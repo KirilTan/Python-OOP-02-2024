@@ -1,6 +1,4 @@
-from typing import Dict
-
-from project.formula_teams.formula_team import FormulaTeam
+from ex_1_and_2.project import FormulaTeam
 
 
 class RedBullTeam(FormulaTeam):

@@ -1,7 +1,7 @@
 from typing import Dict
 
-from project.dough import Dough
-from project.topping import Topping
+from ex_1_and_2.project import Dough
+from ex_1_and_2.project import Topping
 
 
 class Pizza:

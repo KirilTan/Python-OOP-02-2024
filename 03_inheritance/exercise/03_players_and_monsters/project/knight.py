@@ -1,4 +1,4 @@
-from project.hero import Hero
+from ex_1_and_2.project import Hero
 
 
 class Knight(Hero):

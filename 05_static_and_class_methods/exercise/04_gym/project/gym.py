@@ -1,9 +1,9 @@
 from typing import List
-from project.customer import Customer
-from project.equipment import Equipment
-from project.trainer import Trainer
-from project.subscription import Subscription
-from project.exercise_plan import ExercisePlan
+from ex_1_and_2.project import Customer
+from ex_1_and_2.project import Equipment
+from ex_1_and_2.project import Trainer
+from ex_1_and_2.project import Subscription
+from ex_1_and_2.project import ExercisePlan
 
 
 class Gym:

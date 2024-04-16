@@ -1,4 +1,4 @@
-from project.person import Person
+from ex_1_and_2.project import Person
 
 
 class Child(Person):

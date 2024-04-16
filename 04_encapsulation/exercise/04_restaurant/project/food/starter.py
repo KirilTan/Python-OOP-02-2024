@@ -1,4 +1,4 @@
-from project.food.food import Food
+from ex_1_and_2.project import Food
 
 
 class Starter(Food):

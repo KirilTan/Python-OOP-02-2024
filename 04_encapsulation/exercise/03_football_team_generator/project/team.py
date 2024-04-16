@@ -1,6 +1,6 @@
 from typing import List
 
-from project.player import Player
+from ex_1_and_2.project import Player
 
 
 class Team:

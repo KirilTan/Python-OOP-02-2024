@@ -1,6 +1,5 @@
-from project.computer_types.computer import Computer
-from project.computer_types.desktop_computer import DesktopComputer
-from project.computer_types.laptop import Laptop
+from ex_1_and_2.project import DesktopComputer
+from ex_1_and_2.project import Laptop
 
 
 class ComputerStoreApp:
