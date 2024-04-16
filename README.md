@@ -27,7 +27,9 @@ Throughout this course, the following topics were covered:
 13. **Workshop**
 14. **Exam**
 
-## Score - TBD
+## Score
+
+**100/100**
 
 ---
 
