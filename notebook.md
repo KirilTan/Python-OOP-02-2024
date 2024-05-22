@@ -1,5 +1,5 @@
 # Python Advanced Notebook
-Coutresy of https://github.com/DiyanKalaydzhiev23
+Courtesy of https://github.com/DiyanKalaydzhiev23
 
 ---
 
