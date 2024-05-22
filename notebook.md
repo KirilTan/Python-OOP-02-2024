@@ -1,5 +1,6 @@
 # Python Advanced Notebook
 Coutresy of https://github.com/DiyanKalaydzhiev23
+
 ---
 
 # Theory tests
