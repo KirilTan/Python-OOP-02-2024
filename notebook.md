@@ -1,4 +1,4 @@
-# Python Advanced Notebook
+# Python OOP Notebook
 Courtesy of https://github.com/DiyanKalaydzhiev23
 
 ---
